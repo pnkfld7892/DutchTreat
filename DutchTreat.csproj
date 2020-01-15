@@ -9,7 +9,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="OdeToCode.UseNodeModules" Version="3.0.0" />
+    <PackageReference Include="OdeToCode.UseNodeModules" Version="3.0.0">
+      <NoWarn>True</NoWarn>
+    </PackageReference>
   </ItemGroup>
 
 </Project>
